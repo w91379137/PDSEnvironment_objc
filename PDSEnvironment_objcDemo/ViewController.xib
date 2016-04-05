@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTg-54-9qj" userLabel="Label1">
+                    <rect key="frame" x="66" y="80" width="50" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuF-Q5-ogP" userLabel="Label2">
+                    <rect key="frame" x="485" y="500" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RTg-54-9qj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.3" priority="900" id="Efp-wI-REB"/>
+                <constraint firstItem="RTg-54-9qj" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SO6-Jz-kP2"/>
+                <constraint firstItem="cuF-Q5-ogP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Zlk-GN-k5l"/>
+                <constraint firstItem="RTg-54-9qj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Zvk-Pk-aCU"/>
+                <constraint firstItem="RTg-54-9qj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" multiplier="0.3" priority="900" id="bVb-FJ-sXt"/>
+                <constraint firstItem="cuF-Q5-ogP" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="dKx-Mv-rDt"/>
+                <constraint firstItem="cuF-Q5-ogP" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="1.7" priority="900" id="eN7-IC-K12"/>
+                <constraint firstItem="cuF-Q5-ogP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" multiplier="1.7" priority="900" id="iVg-y8-6CC"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="SO6-Jz-kP2"/>
+                    <exclude reference="Zvk-Pk-aCU"/>
+                    <exclude reference="Zlk-GN-k5l"/>
+                    <exclude reference="dKx-Mv-rDt"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="constraints">
+                    <include reference="SO6-Jz-kP2"/>
+                    <include reference="dKx-Mv-rDt"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="Zvk-Pk-aCU"/>
+                    <include reference="Zlk-GN-k5l"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="414" y="377"/>
+        </view>
+    </objects>
+</document>
