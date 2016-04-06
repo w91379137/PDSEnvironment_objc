@@ -23,6 +23,7 @@
 		66A49FAB9291241B88334C0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DB6DEE8BBF60FA8127D707 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8B4FFD0029779C898382D1BC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F81A69F61CB48C2800D9BA63 /* PDSEnvironment_objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDSEnvironment_objc.h; sourceTree = "<group>"; };
 		F8E1F9451CB477E3002C7654 /* PDSEnvironment_objcDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDSEnvironment_objcDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E1F9491CB477E3002C7654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8E1F94B1CB477E3002C7654 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		F8E1F9651CB47963002C7654 /* PDSEnvironment_objc */ = {
 			isa = PBXGroup;
 			children = (
+				F81A69F61CB48C2800D9BA63 /* PDSEnvironment_objc.h */,
 				F8E1F9671CB47AC7002C7654 /* PDSEnvironmentViewController.h */,
 				F8E1F9681CB47AC7002C7654 /* PDSEnvironmentViewController.m */,
 				F8E1F9691CB47AC7002C7654 /* PDSEnvironmentViewController.xib */,
