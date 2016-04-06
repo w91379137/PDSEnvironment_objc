@@ -16,6 +16,13 @@ Pod::Spec.new do |s|
         :tag => s.version.to_s
     }
     s.source_files = 'PDSEnvironment_objc/**/*'
+
+    s.resource_bundles = {
+        'PDSEnvironment_objc' => [
+            'PDSEnvironment_objc/**/*.xib'
+        ]
+    }
+
     s.requires_arc = true
 
     s.platform = :ios
