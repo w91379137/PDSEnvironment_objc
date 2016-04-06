@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
         :git => 'https://github.com/w91379137/PDSEnvironment_objc.git',
         :tag => s.version.to_s
     }
-    s.source_files = 'PDSEnvironment_objc/**/*'
+    s.source_files = 'PDSEnvironment_objc/**/*.{h,m}'
 
     s.resource_bundles = {
         'PDSEnvironment_objc' => [
