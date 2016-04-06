@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PDSEnvironment_objc.h"
 #define envc [PDSEnvironmentViewController sharedInstance]
 
 @interface PDSEnvironmentViewController : UIViewController
