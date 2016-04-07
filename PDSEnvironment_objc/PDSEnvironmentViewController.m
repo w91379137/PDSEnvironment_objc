@@ -48,8 +48,13 @@
     }
     
     _rootViewController = rootViewController;
-    [self addChildViewController:rootViewController];
+    [self addChildViewController:_rootViewController];
     
+    [self placeRootViewControllerView];
+}
+
+- (void)placeRootViewControllerView
+{
     [self.view insertSubview:_rootViewController.view atIndex:0];
     
     [_rootViewController.view mas_makeConstraints:^(MASConstraintMaker *make) {

@@ -17,6 +17,8 @@
 		F8E1F96A1CB47AC7002C7654 /* PDSEnvironmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F9681CB47AC7002C7654 /* PDSEnvironmentViewController.m */; };
 		F8E1F96B1CB47AC7002C7654 /* PDSEnvironmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E1F9691CB47AC7002C7654 /* PDSEnvironmentViewController.xib */; };
 		F8E1F96E1CB47B3D002C7654 /* PDSEnvironmentViewController+SizeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E1F96D1CB47B3D002C7654 /* PDSEnvironmentViewController+SizeClass.m */; };
+		F8EF2B341CB71B1B0007221C /* EnvironmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF2B321CB71B1B0007221C /* EnvironmentViewController.m */; };
+		F8EF2B351CB71B1B0007221C /* EnvironmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EF2B331CB71B1B0007221C /* EnvironmentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,9 @@
 		F8E1F9691CB47AC7002C7654 /* PDSEnvironmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDSEnvironmentViewController.xib; sourceTree = "<group>"; };
 		F8E1F96C1CB47B3D002C7654 /* PDSEnvironmentViewController+SizeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDSEnvironmentViewController+SizeClass.h"; sourceTree = "<group>"; };
 		F8E1F96D1CB47B3D002C7654 /* PDSEnvironmentViewController+SizeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PDSEnvironmentViewController+SizeClass.m"; sourceTree = "<group>"; };
+		F8EF2B311CB71B1B0007221C /* EnvironmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvironmentViewController.h; sourceTree = "<group>"; };
+		F8EF2B321CB71B1B0007221C /* EnvironmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentViewController.m; sourceTree = "<group>"; };
+		F8EF2B331CB71B1B0007221C /* EnvironmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnvironmentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 		F8E1F9641CB4795B002C7654 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				F8EF2B311CB71B1B0007221C /* EnvironmentViewController.h */,
+				F8EF2B321CB71B1B0007221C /* EnvironmentViewController.m */,
+				F8EF2B331CB71B1B0007221C /* EnvironmentViewController.xib */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 				F8E1F9581CB477E3002C7654 /* LaunchScreen.storyboard in Resources */,
 				F8E1F9631CB47836002C7654 /* ViewController.xib in Resources */,
 				F8E1F9551CB477E3002C7654 /* Assets.xcassets in Resources */,
+				F8EF2B351CB71B1B0007221C /* EnvironmentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +271,7 @@
 				F8E1F96E1CB47B3D002C7654 /* PDSEnvironmentViewController+SizeClass.m in Sources */,
 				F8E1F9621CB47836002C7654 /* ViewController.m in Sources */,
 				F8E1F94D1CB477E3002C7654 /* AppDelegate.m in Sources */,
+				F8EF2B341CB71B1B0007221C /* EnvironmentViewController.m in Sources */,
 				F8E1F94A1CB477E3002C7654 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
